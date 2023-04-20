@@ -1,0 +1,129 @@
+.show_used_product {
+    width: 19%;
+    margin: 0 .5%;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.show_used_product img {
+    width: 224px;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.buy_sell_name {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.buy_sell_price {
+    font-size: 17px;
+    color: brown;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.buy_sell_show_details_btn {
+    background-color: #AD2A2B;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    border-radius: 3px;
+    color: white;
+    width: 100%;
+    padding: 7px;
+}
+
+.buy_sell_show_details_btn:hover {
+    color: white;
+}
+
+.show_buy_sell {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.514);
+    z-index: 9999;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show_buy_sell_in {
+    width: 800px;
+    height: 80vh;
+    max-height: 80vh;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 3px;
+    overflow: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.SBS_left {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgb(197, 197, 197);
+    /* width: 40%; */
+    width: 350px;
+    height: calc(80vh - 50px);
+    align-items: center;
+    overflow: auto;
+}
+
+.SBS_image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.SBS_image:last-child {
+    margin-bottom: 0;
+}
+
+.SBS_right {
+    width: 400px;
+    margin-left: 25px;
+}
+
+.SBS_right_item {
+    margin-bottom: 12px;
+}
+
+.SBS_right_item:last-child {
+    margin-bottom: 0;
+}
+
+.SBS_right_item p {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.SBS_right_item span,
+.SBS_right_item a {
+    display: block;
+    border-bottom: 1px dotted gray;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.SBS_right_item a {
+    color: black;
+}
+
+.overflow_hidden {
+    overflow: hidden !important;
+}

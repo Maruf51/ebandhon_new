@@ -1,0 +1,76 @@
+.reseller img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.reseller_details {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.reseller_detail {
+    width: 35%;
+    margin: 0 10px;
+}
+
+.reseller_detail h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.reseller_detail p {
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+}
+
+.reseller_details_form {
+    width: 35%;
+    background: #f3f3f3da;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 0 10px;
+    box-shadow: 10px 10px 30px 0px #bbbbbb;
+}
+
+.reseller_details_form label {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 3px;
+}
+
+.reseller_details_form input {
+    font-size: 16px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.reseller_payment_option {
+    margin-left: 5px;
+}
+
+.reseller_submit_btn {
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 8px 15px;
+}
+
+.reseller_submit_btn:hover {
+    color: white;
+}
+
+.reseller_payment_option input {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,19 @@
+.RP {
+    width: 1200px;
+    max-width: 95%;
+    margin: auto;
+}
+
+.RP_loading {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    z-index: 99999;
+    align-items: center;
+    justify-content: center;
+}
+
+.RP_loading img {
+    width: 200px;
+    height: 200px;
+}

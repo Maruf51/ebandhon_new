@@ -1,0 +1,162 @@
+.cart_page {
+    height: 600px;
+    margin-top: 50px;
+}
+
+.cart_shipment {
+    max-width: 55%;
+    background: #ececec;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 100px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.shipment_h1 {
+    font-size: 27px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.shipment_field {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+.shipment_field label {
+    font-size: 15px;
+}
+
+.shipment_field input {
+    font-size: 15px;
+    padding: 8px 15px;
+    border: 1px solid rgb(221, 221, 221);
+    outline: none;
+}
+
+.cart_show_list {
+    height: 360px;
+    overflow: auto;
+}
+
+.cart_cart {
+    max-width: 40%;
+    margin-left: 5%;
+    width: 100%;
+    height: 600px;
+    float: right;
+    background: #ececec;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.cart_top_header {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.cart_top_header::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #b5b5b5;
+    position: absolute;
+    border-radius: 15px;
+    bottom: 0;
+}
+
+.cart_top_header h2 {
+    font-size: 20px;
+}
+
+.cart_bottom_prices {
+    margin-top: 15px;
+}
+
+.cart_bottom_prices::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #b5b5b5;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.cart_bottom_prices p {
+    margin-bottom: 0;
+    display: block;
+}
+
+.cart_bottom_prices p span {
+    float: right;
+}
+
+.cart_page_btn {
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    width: 100%;
+    border: none;
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 8px;
+}
+
+.cart_spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.address_icon_down {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.get_address {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sub_address {
+    display: flex;
+    flex-direction: column;
+    margin: 0 !important;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.sub_address label {
+    font-size: 15px;
+}
+
+.sub_address select {
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.select_error {
+    color: #dc3545;
+    margin-bottom: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.CPS_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}

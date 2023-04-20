@@ -1,0 +1,205 @@
+.upload_used_products {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.432);
+    z-index: 9999;
+}
+
+.UUP {
+    width: auto;
+    /* height: 90vh; */
+    background: white;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.UUP_close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.UUP_close:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+.UUP_left {
+    /* width: 35%; */
+    border-right: 1px solid rgb(167, 167, 167);
+    padding-right: 25px;
+}
+
+.UUP_left h2 {
+    font-size: 22px;
+}
+
+.UUP_images {
+    display: grid;
+    grid-template-areas: 'first first' 'second third' 'fourth fifth';
+}
+
+.UUP_image,
+.UUP_image img,
+.UUP_edit {
+    width: 200px;
+    height: 200px;
+}
+
+.UUP_image {
+    border: 1px solid rgb(224, 224, 224);
+    position: relative;
+}
+
+.UUP_image1 {
+    grid-area: first;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.UUP_image1 img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.UUP_image2 {
+    grid-area: second;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.UUP_image2 img {
+    object-fit: cover;
+}
+
+.UUP_image3 {
+    grid-area: third;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.UUP_image3 img {
+    object-fit: cover;
+}
+
+.UUP_image4 {
+    grid-area: fourth;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.UUP_image4 img {
+    object-fit: cover;
+}
+
+.UUP_image5 {
+    grid-area: fifth;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+.UUP_image5 img {
+    object-fit: cover;
+}
+
+.UUP_edit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.UUP_edit:hover {
+    background-color: rgba(0, 0, 0, 0.308);
+}
+
+.UUP_edit1 {
+    width: 300px;
+    height: 300px;
+}
+
+.UUP_edit svg {
+    width: 25px;
+    height: 25px;
+}
+
+.UUP_right {
+    padding-left: 50px;
+    width: 430px;
+}
+
+.UUP_right_header {
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.UUPR_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.UUPR_field label {
+    font-size: 18px;
+}
+
+.UUPR_field input,
+.UUPR_field textarea {
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    outline: none;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+.UURP_btn {
+    padding: 5px 25px;
+    background: tomato;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.UURP_btn:hover {
+    color: white;
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  transition: all .3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.loader {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  pointer-events: none;
+}
+
+.drag_scroll_brands a {
+  display: flex;
+  border: 2px solid red;
+  align-items: center;
+  border-radius: 0 15px;
+}
+

@@ -1,0 +1,85 @@
+.FL_item {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+    align-items: center;
+    padding: 20px;
+    margin: 10px .5% 10px .5%;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+}
+
+.FL_item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.FL_item h3 {
+    margin-top: 8px;
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.FL_item h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.FL_item span {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
+
+.FL_item_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.FA_item_LI,
+.FA_item_LI:hover {
+    color: white;
+    width: 32px;
+    height: 32px;
+    background: #0072b1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.FA_item_portfolio,
+.FA_item_portfolio:hover {
+    background: tomato;
+    height: 32px;
+    padding: 0 10px;
+    margin: 0 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FA_item_PF {
+    margin-right: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+.FA_item_FB,
+.FA_item_FB:hover {
+    color: white;
+    width: 32px;
+    height: 32px;
+    background: #3b5998;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
